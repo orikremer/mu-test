@@ -1,6 +1,8 @@
 namespace: mu
 environments:
 - name: acceptance
+  cluster:
+      desiredCapacity: 2
 - name: production
 service:
   name: mu-test
