@@ -1,6 +1,7 @@
 namespace: mu
 environments:
 - name: acceptance
+  provider: ecs-fargate
   cluster:
       desiredCapacity: 2
 - name: production
