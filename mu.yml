@@ -3,7 +3,8 @@ environments:
 - name: acceptance
   provider: ecs-fargate
   cluster:
-      desiredCapacity: 2
+      desiredCapacity: 4
+      maxSize: 6
 - name: production
 service:
   name: mu-test
